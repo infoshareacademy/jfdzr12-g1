@@ -4,19 +4,21 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 a {
   text-decoration: none;
 }
-/* a:hover{
-  color: white;
-} */
 
 li {
   list-style: none;
+  display:inline;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+h1 {
+  font-size: 70px;
 }
 
 .nav {
@@ -24,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 10px 50px 50px 20px;
- }
+}
 
 .container-slogan {
   display: flex;
@@ -35,10 +37,6 @@ body {
 
 .logo {
   width: 300px;
-}
-
-h1 {
-  font-size: 70px;
 }
 
 .nav-link {
@@ -53,9 +51,6 @@ h1 {
 }
 
 .nav-link:hover {
-  /* -webkit-box-shadow: 5px 7px 21px -13px rgba(66, 68, 90, 1);
-  -moz-box-shadow: 5px 7px 21px -13px rgba(66, 68, 90, 1);
-  box-shadow: 5px 7px 21px -13px rgba(66, 68, 90, 1); */
   color: white;
   background-color: black;
   transition-duration: 0.5s;
