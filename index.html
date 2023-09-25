@@ -35,26 +35,76 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <img src="img/FOTO_TOTO.jpg" alt="logo" class="logo" />
-        <!-- <a href="#" class="nav-logo">Foto TOto</a> -->
-        <ul class="nav-items">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Examples</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Pricing</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__top">
+        <div class="header__box">
+          <img class="header__img" src="img/FOTO_TOTO.jpg" alt="logo" />
+
+          <nav class="header__nav">
+            <ul class="nav__items">
+              <li class="nav__item">
+                <a href="#Example" class="nav__link">Examples</a>
+              </li>
+              <li class="nav__item">
+                <a href="#Pricing" class="nav__link">Pricing</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
-    <div class="container-slogan">
-      <div>
-        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
+
+    <section class="container">
+      <div class="container__main">
+        <h1 class="container__slogan">
+          Your <b>moments</b><br />My <b>passion</b><br />Our <b>story</b>
+        </h1>
+        <img class="container__img" src="img/widoczek.jpg" alt="obrazek" />
       </div>
-      <div>
-        <img src="img/widoczek.jpg" alt="obrazek" />
+    </section>
+
+    <section class="examples" id="Example">
+      <div class="examples__galery">
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
+        <img class="examples__img" src="#" alt="example-photo" />
       </div>
-    </div>
+    </section>
+
+    <section class="pricing" id="Pricing">
+      <div class="pricing__container">
+        <div class="pricing__box">
+          <h2 class="pricing__name">One Photo</h2>
+          <div class="pricing__offer">$10</div>
+          <ul class="pricing__term">
+            <li class="pricing__con">already</li>
+            <li class="pricing__con">no mod</li>
+            <li class="pricing__con">single</li>
+          </ul>
+        </div>
+        <div class="pricing__box">
+          <h2 class="pricing__name">One Photo</h2>
+          <div class="pricing__offer">$10</div>
+          <ul class="pricing__term">
+            <li class="pricing__con">already</li>
+            <li class="pricing__con">no mod</li>
+            <li class="pricing__con">single</li>
+          </ul>
+        </div>
+        <div class="pricing__box">
+          <h2 class="pricing__name">One Photo</h2>
+          <div class="pricing__offer">$10</div>
+          <ul class="pricing__term">
+            <li class="pricing__con">already</li>
+            <li class="pricing__con">no mod</li>
+            <li class="pricing__con">single</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
