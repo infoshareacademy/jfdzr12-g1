@@ -121,10 +121,12 @@ h1 {
   /* justify-content: space-around; */
   align-items: center;
   text-align: center;
-  width: 25%;
+  width: 20%; 
+  /* zmienione width z 25% */
   border-radius: 15px;
   margin: 1rem 0;
-  padding: 2rem 0;
+  padding: 5rem 0;
+  /* padding zmieniony na 5rem */
 }
 
 .pricing__offer {
@@ -140,11 +142,14 @@ h1 {
 .pricing__name {
   font-size: 2rem;
   margin-bottom: 1rem;
+ 
 
 }
 
 .pricing__con {
-  list-style-type: "- ";
+  /* list-style-type: "- "; */
+  list-style-type: none;
+ 
 }
 
 .pricing__term {
