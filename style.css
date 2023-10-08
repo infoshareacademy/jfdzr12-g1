@@ -183,14 +183,11 @@ a {
 .pricing__name {
   font-size: 2rem;
   margin-bottom: 1rem;
-
-
 }
 
 .pricing__con {
   /* list-style-type: "- "; */
-  list-style-type: none;
-
+  list-style: none;
 }
 
 .pricing__term {
